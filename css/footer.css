@@ -1,0 +1,21 @@
+footer{
+    /* background-color: rgb(255, 0, 0); */
+    /* height: 500px; */
+ 
+    margin-top: 15vh;
+}
+
+.Footer-div{
+    padding: 10px 5px;
+      background-color: rgba(206, 206, 206, 0.295);
+}
+
+.Country{
+    border: 1px solid rgba(94, 94, 94, 0.511);
+}
+
+.TextAlign{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}

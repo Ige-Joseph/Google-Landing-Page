@@ -1,0 +1,47 @@
+body{
+    /* background-color: black; */
+    font-family: roboto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    font-size: 12px;
+    min-height: 100vh;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.left-section{
+    /* background-color: aqua; */
+    flex: 2;
+    padding: 15px;
+}
+
+.right-section{
+    /* background-color: rgb(217, 255, 0); */
+    flex: 1;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: row;
+    gap:6px;
+    justify-content: end;
+    align-items: center;
+
+}
+
+
+.right-section>div{
+
+}
+
+
+.right-section>img{
+    width: 24px;
+    border-radius: 12px;
+}
+
